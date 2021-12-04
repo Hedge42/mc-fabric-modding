@@ -1,17 +1,11 @@
-package net.fabricmc.example;
+package net.neato.scripts;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.font.TextRenderer;
-import net.minecraft.client.gui.screen.TitleScreen;
 import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.util.ModStatus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import javax.swing.border.TitledBorder;
 
 public class ExampleMod implements ModInitializer {
     // This logger is used to write text to the console and the log file.
@@ -31,6 +25,7 @@ public class ExampleMod implements ModInitializer {
         //this.status = MinecraftClient.getModStatus();
         //this.player = instance.player;
 
+        ModBlocks.registerBlocks();
         ModItems.registerItems();
     }
 

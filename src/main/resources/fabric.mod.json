@@ -3,27 +3,27 @@
   "id": "neato",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Neatos modpack",
+  "description": "Δ",
   "authors": [
-    "Me!"
+    "tjh"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "mit",
+  "icon": "assets/neato/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.neato.scripts.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "neato.mixins.json"
   ],
 
   "depends": {
