@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "",
-    "sources": ""
+    "sources": "https://github.com/Hedge42/mc-fabric-modding"
   },
 
   "license": "mit",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.neato.scripts.ExampleMod"
+      "net.neato.scripts.Start"
     ]
   },
   "mixins": [

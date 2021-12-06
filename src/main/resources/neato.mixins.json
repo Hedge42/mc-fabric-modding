@@ -4,10 +4,13 @@
   "package": "net.neato.scripts.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+
   ],
   "client": [
-    "ExampleMixin"
+    "ClientMixin",
+    "TitleScreenMixin"
   ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   }

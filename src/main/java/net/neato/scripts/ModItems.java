@@ -1,5 +1,6 @@
 package net.neato.scripts;
 
+import net.minecraft.client.render.LightmapTextureManager;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -18,10 +19,11 @@ public class ModItems
 
     public static void registerItems()
     {
-        Registry.register(Registry.ITEM, new Identifier(ExampleMod.MOD_ID, "ruby"), RUBY);
-        Registry.register(Registry.ITEM, new Identifier(ExampleMod.MOD_ID, "train_engine"), TRAIN_ENGINE);
-        Registry.register(Registry.ITEM, new Identifier(ExampleMod.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(Start.MOD_ID, "ruby"), RUBY);
+        Registry.register(Registry.ITEM, new Identifier(Start.MOD_ID, "train_engine"), TRAIN_ENGINE);
+        Registry.register(Registry.ITEM, new Identifier(Start.MOD_ID, "ruby_block"), RUBY_BLOCK);
 
-        ExampleMod.LOGGER.info("Registered items!");
+
+        Start.LOGGER.info("Registered items!");
     }
 }
